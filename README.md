@@ -3,8 +3,6 @@
 
 ![Project Image](images/welcomePage.png)
 
-
-
 > Μια πρώτη εικόνα από την αρχική σελίδα του προγράμματος
 
 ---
@@ -15,13 +13,14 @@
 - [Περιγραφή](#περιγραφή)
 - [Xαρακτηριστικά](#χαρακτηριστικά)
 - [Τεχνολογίες](#τεχνολογίες)
+- [Highlights](#Highlights)
 ---
 
 ## Περιγραφή
 
-Το παρόν project αποτελεί συνέχεια  απο την ομαδική εργασία που έγινε στα πλαίσια του μαθήματος  <a href="https://sites.google.com/view/adopse-iee-dipae/coursesyllabus?authuser=0"> ΑΔΟΠΣΕ</a>.Τo αρχικό project βρίσκεται  σε αυτο το <a href="https://github.com/AchilleasGekas/Adopse/tree/master/teliko_solution"> github repo</a>.
+Το παρόν project αποτελεί συνέχεια  απο την ομαδική εργασία που έγινε στα πλαίσια του μαθήματος  <a href="https://sites.google.com/view/adopse-iee-dipae/coursesyllabus?authuser=0"> ΑΔΟΠΣΕ</a>.Τo αρχικό project βρίσκεται  σε αυτο το <a href="https://github.com/AchilleasGekas/Adopse/tree/master/teliko_solution"> Github repo</a>.
 <br/>
- Το adholic ειναι μια εφαρμογη στην οποια μπορεις να αναζητησεις προιοντα απο μια μεγαλη γκαμα απο ειδη τεχνολογιας,οχηματα μεχρι και σπιτια και αν θες εγγραφεσαι και μπορεις να ανεβασεις την δικια σου  αγγελια χωρις καποιο κοστος εκτος αν θελει να κανει καποιος δωρεά. 
+ Το adholic είναι μια εφαρμογή στην οποία μπορείς να αναζητήσεις προιόντα από μια μεγάλη γκάμα από είδη τεχνολογίας,οχήματα μέχρι και σπίτια και αν θες εγγράφεσαι και μπορείς να ανεβάσεις την δικία σου  αγγελία χωρίς κάποιο κόστος εκτός αν θέλει να κάνει κάποιος δωρεά. 
  <br/><br/>
 [Back To The Top](#aggeliesproject)
 
@@ -30,16 +29,16 @@
 ---
 
 ## Xαρακτηριστικά
-- Συνδεση/Εγγραφη Χρηστη
-- Μπαρα αναζητησης
-- Φιλτρα αναζητησης 
+- Σύνδεση/Εγγραφή Χρήστη
+- Μπάρα αναζήτησης
+- Φίλτρα αναζήτησης 
 - Customer Support 
 - Price Discount
 - Favorite button
 - Donation(Paypal)
 - Report button
-- Παρακολουθηση χρηστη (login,αναζητηση)
-- Γραφημα αναζητησης χρηστων
+- Παρακολούθηση χρήστη (login,αναζήτηση)
+- Γράφημα αναζήτησης χρηστών
 
 [Back To The Top](#aggeliesproject)
 
@@ -49,24 +48,30 @@
 ## Τεχνολογίες
 
 - C#
-- Lucene.Net(για την αναζητηση)
+- Lucene.Net(για την αναζήτηση)
 - Visual Studio 2019
 
 [Back To The Top](#aggeliesproject)
 
 ---
 
-## How To Use
+## Highlights
+![SearchBar](images/appTourGIF.gif)
+> Γρήγορη ματιά στην εφαρμογή
+<br/>
 
-#### Installation
+![SearchBar](images/searchGIF.gif)
+
+> Λειτουργία της μπάρας αναζήτησης με το Lucene.net
 
 
+![SearchBar](images/usageDataGIF.gif)
+> "Παρακολούθηση χρηστών"
 
-#### API Reference
+![SearchBar](images/filterGIF.gif)
+> Xρήση φίλτρων
+<br/>
 
-```html
-    <p>dummy code</p>
-```
 [Back To The Top](#aggeliesproject)
 
 ---

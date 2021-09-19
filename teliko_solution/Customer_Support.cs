@@ -73,8 +73,8 @@ namespace WindowsFormsApp1
                 // }
                 // else
                 // {
-                string email = "elbasidis98@gmail.com";
-                string Pass = "BLACKmamba98";
+                string email = "";
+                string Pass = "";
                 string Sub = txtSubject.Text;
                 string Bod = txtBody.Text;
                 string attachmentFilename = txtAttachment.Text;

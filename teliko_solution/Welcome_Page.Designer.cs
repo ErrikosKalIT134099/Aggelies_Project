@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Welcome_Page));
             this.main_panel = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.Search_button = new System.Windows.Forms.Button();
             this.searchboxTxtBox = new System.Windows.Forms.TextBox();
@@ -93,7 +94,6 @@
             this.aCTIVITY_USERTableAdapter = new WindowsFormsApp1.DatabaseLocalTableAdapters.ACTIVITY_USERTableAdapter();
             this.bindingSource3 = new System.Windows.Forms.BindingSource(this.components);
             this.display_AdsTableAdapter = new WindowsFormsApp1.DatabaseLocalTableAdapters.Display_AdsTableAdapter();
-            this.button1 = new System.Windows.Forms.Button();
             this.main_panel.SuspendLayout();
             this.panel6.SuspendLayout();
             this.Bottom_panel.SuspendLayout();
@@ -133,6 +133,13 @@
             this.main_panel.Controls.Add(this.logo);
             this.main_panel.Controls.Add(this.panel4);
             this.main_panel.Name = "main_panel";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
             // 
             // panel6
             // 
@@ -515,6 +522,7 @@
             resources.ApplyResources(this.logo, "logo");
             this.logo.Name = "logo";
             this.logo.TabStop = false;
+            this.logo.Click += new System.EventHandler(this.logo_Click);
             // 
             // panel4
             // 
@@ -593,13 +601,6 @@
             // display_AdsTableAdapter
             // 
             this.display_AdsTableAdapter.ClearBeforeFill = true;
-            // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_2);
             // 
             // Welcome_Page
             // 

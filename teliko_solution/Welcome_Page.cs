@@ -578,6 +578,11 @@ namespace WindowsFormsApp1
             myAds ads = new myAds();
             ads.ShowDialog();
         }
+
+        private void logo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
       

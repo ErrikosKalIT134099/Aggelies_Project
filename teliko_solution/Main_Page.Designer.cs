@@ -190,6 +190,7 @@
             this.label2.Size = new System.Drawing.Size(66, 24);
             this.label2.TabIndex = 23;
             this.label2.Text = "label2";
+            this.label2.Visible = false;
             // 
             // logOutButton
             // 
